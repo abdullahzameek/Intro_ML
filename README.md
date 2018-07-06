@@ -17,8 +17,8 @@ As the code is written to accompany the book, I don't intend to add
 new features. However, bug reports are welcome, and you should feel
 free to fork and modify the code.
 
-##This repo was forked and cloned from Micheal Nielsen, all code and such belongs to him and I claim no 
-##ownership whatsover. Except for the Python3 version of the code, which I am making based off Nielsen's
+## This repo was forked and cloned from Micheal Nielsen, all code and such belongs to him and I claim no 
+## ownership whatsover. Except for the Python3 version of the code, which I am making based off Nielsen's
 ## original code
 
 
