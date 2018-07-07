@@ -10,7 +10,15 @@ class Network:
                 for x,y in zip(sizes[:-1], sizes[1:])] #ditto as above
 #The code assumes that the first layer is an input layer, and so it 
 # doesnt assign any weights or biases to it
+    
+    def feedforward(self, a):
+        #Return the output of the network is "a" is input
+        for b,w in zip(self.biases, self.weights):
+            a = sigmoid(np.dot(w,a)+b)
+        return a
+    
 
 def sigmoid(z):
-    return 1.0(1.0+np.exp(-z))
+    sig = 1.0/(1.0+np.exp(-z))
+    return sig
     
